@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import React , {useState} from 'react'
 
 export const Register = () => {
@@ -11,7 +11,8 @@ export const Register = () => {
         console.log(email);
     }
   return (
-    <div className='container'> 
+    <div className='register'>
+    <div className='container-register'> 
     
         <h2>Register</h2>
 
@@ -26,9 +27,10 @@ export const Register = () => {
             <label htmlFor='password'>password</label>
             <input value={pass} onChange={(e) => setPass(e.target.value)} type='password' placeholder='********' id='pass' name='pass'/>
 
-            <button>log out</button>
+            <button className='button-register'>log out</button>
         </form>
 
+    </div>
     </div>
   )
 }

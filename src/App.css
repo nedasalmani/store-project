@@ -1,4 +1,4 @@
-.App {
+.register {
   text-align: center;
   display: flex;
   min-height: 100vh;
@@ -9,12 +9,12 @@
 
 }
 
-.container , .register-form{
+.container-register , .register-form{
   display: flex;
   flex-direction: column;
 
 }
-.container{
+.container-register{
   padding: 5rem;
   border: 1px solid white;
   border-radius: 10px;
@@ -31,7 +31,7 @@ input{
   border-radius: 10px;
 }
 
-button{
+.button-register{
   border: none;
   background-color: white;
   padding: 20px;

@@ -27,7 +27,7 @@ const Nav = () =>{
 
 
     
-        <div className=' text-gray-700 font-nunito bg-gray-100 '>
+        <div className=' text-gray-700 font-nunito  '>
             <nav className='flex justify-between' >
 
                 <div className='font-bold uppercase p-4 '>

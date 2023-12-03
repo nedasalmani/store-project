@@ -5,11 +5,13 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 // import { Routes } from "react-router-dom";
 import AppRoutes from "./Routes";
+import Navbar from "./components/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   
   <Router>
+    <Navbar />
     <AppRoutes />
   </Router>
 

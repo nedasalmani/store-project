@@ -31,7 +31,7 @@ const Nav = () =>{
             <nav className='flex justify-between' >
 
                 <div className='font-bold uppercase p-4 '>
-                <Link to='#'>clothing shop</Link>
+                <Link className='hover:text-gray-500' to='#'>clothing shop</Link>
                 </div>
 
                 <ul className='flex p-4' >

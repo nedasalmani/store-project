@@ -20,8 +20,8 @@ import Product from './Product';
 
       </div>
 
-      <div>
-        <div>Load More</div>
+      <div className='flex justify-center mt-5 text-white'>
+        <div className='button bg-gray-400 hover:shadow-inner active:border-2 border-gray-700'>Load More</div>
       </div>
     </main>
   )
